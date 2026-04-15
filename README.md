@@ -26,7 +26,7 @@ El análisis integra Python, Power BI y GitHub en un flujo de trabajo end to end
 ## Dataset
 
 - **Nombre:** Airline Ticket Prices vs Oil & Fuel Costs
-- **Fuente:** [Kaggle] ([https://www.kaggle.com/datasets/zkskhurram/airline-ticket-prices-vs-oil-and-fuel-cost]
+- **Fuente:** [Kaggle] https://www.kaggle.com/datasets/zkskhurram/airline-ticket-prices-vs-oil-and-fuel-costs
 - **Formato:** CSV | 14.355 filas | 18 columnas
 - **Período:** Enero 2019 – Marzo 2026
 - **Archivo:** [airline_ticket_prices.csv](data/raw/airline_ticket_prices.csv)
@@ -58,11 +58,40 @@ El análisis integra Python, Power BI y GitHub en un flujo de trabajo end to end
 
 - La correlación entre jet fuel y tarifa final es de apenas 0,28,  indicando que el combustible explica solo el 28% de la variación
   en los precios. 
-- Flag Carriers y Low Cost convergieron hacia tarifas similares en todas las fases de crisis, sugiriendo que el modelo de negocio
-  pierde relevancia como diferenciador de precios ante shocks globales.
+- Flag Carriers y Low Cost convergieron hacia tarifas similares en todas las fases de crisis, sugiriendo que el modelo de negocio no es un factor 
+diferenciador de precios ante shocks globales.
 - La fase US-Iran War Conflict (2026) generó los mayores recargos por combustible históricos, superando USD 120 promedio por pasaje.
 - Asia registró la tarifa promedio más alta por región (USD 1.239),  mientras que Europa presentó los valores más bajos (USD 1.026).
 
 ---
 
 ## Estructura del repositorio
+├── data/
+
+│   └── raw/
+
+│       └── airline_ticket_prices.csv
+
+├── notebooks/
+
+│   └── airline_analysis.ipynb
+
+├── dashboard/
+
+│   ├── airline_dashboard.pbix
+
+│   ├── pagina1.png
+
+│   └── pagina2.png
+
+└── README.md
+
+
+## Enlaces
+
+- 📓 Notebook en Google Colab: [Ver notebook] (https://github.com/francoamarani-lgtm/herramientasbasicas-franco-marani/blob/main/notebooks/Trabajo_Final_Ciencia_de_Datos_Airline_Ticket_Prices%20.ipynb)
+- 📊 Dashboard Power BI: [Ver capturas]
+  https://github.com/francoamarani-lgtm/herramientasbasicas-franco-marani/blob/main/Dashboard/Captura%20Power%20BI%20%20P%C3%A1gina%201.jpg
+  
+  https://github.com/francoamarani-lgtm/herramientasbasicas-franco-marani/blob/main/Dashboard/Captura%20Power%20BI%20P%C3%A1gina%202.jpg )
+- 📁 Dataset original: [Kaggle] (https://www.kaggle.com/datasets/zkskhurram/airline-ticket-prices-vs-oil-and-fuel-costs)
