@@ -1,6 +1,8 @@
-# Análisis de tarifas aéreas y precio del combustible
+# Análisis de tarifas aéreas en las distintas fases geopolíticas
 
 **Autor:** Franco Agustín Marani  
+**Email**: francoamarani@gmail.com
+**Linkedin**: https://www.linkedin.com/in/francoamarani/ 
 **Curso:** Curso de Herramientas basicas para el Analisis de Datos
 
 **Cohorte**: 2026
@@ -33,7 +35,8 @@ El análisis se desarrolló en dos etapas complementarias:
 
 ## Archivos del repositorio
 
-- `/data/raw/`: dataset original o fuente de datos
-- `/notebooks/`: análisis exploratorio en Python (.ipynb)
-- `/dashboard/`: archivo Power BI (.pbix) y capturas del dashboard
+- `/data/raw/`: (https://www.kaggle.com/datasets/zkskhurram/airline-ticket-prices-vs-oil-and-fuel-costs)
+- `/notebooks/`: Análisis exploratorio en Python (.ipynb)
+- `/dashboard/`: Archivo Power BI (.pbix) y capturas del dashboard
+
 
