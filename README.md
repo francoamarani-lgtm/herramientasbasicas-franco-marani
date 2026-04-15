@@ -1,8 +1,11 @@
 # Análisis de tarifas aéreas en las distintas fases geopolíticas
 
 **Autor:** Franco Agustín Marani  
+
 **Email**: francoamarani@gmail.com
+
 **Linkedin**: https://www.linkedin.com/in/francoamarani/ 
+
 **Curso:** Curso de Herramientas basicas para el Analisis de Datos
 
 **Cohorte**: 2026
